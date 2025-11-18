@@ -10,6 +10,19 @@ echo "============================="
 echo "📁 Project: {{PROJECT_NAME}}"
 echo
 
+# Show Claude behavior rules if available
+if [ -f "../Averys-AI-Collaboration-Hack/CLAUDE_BEHAVIOR_RULES.md" ]; then
+    echo "🤖 CLAUDE BEHAVIOR RULES (READ FIRST):"
+    echo "======================================"
+    cat ../Averys-AI-Collaboration-Hack/CLAUDE_BEHAVIOR_RULES.md
+    echo
+elif [ -f "~/Documents/Averys-AI-Collaboration-Hack/CLAUDE_BEHAVIOR_RULES.md" ]; then
+    echo "🤖 CLAUDE BEHAVIOR RULES (READ FIRST):"
+    echo "======================================"
+    cat ~/Documents/Averys-AI-Collaboration-Hack/CLAUDE_BEHAVIOR_RULES.md
+    echo
+fi
+
 # Check for session snapshots
 if [ -f "SESSION_EXIT_SNAPSHOT.md" ]; then
     echo "✅ FOUND SESSION EXIT SNAPSHOT"
