@@ -4,7 +4,7 @@
 *Created by Avery - The framework that transforms AI development*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Framework Version](https://img.shields.io/badge/Version-1.0-blue.svg)](https://github.com/ai-collaboration-framework/releases)
+[![Framework Version](https://img.shields.io/badge/Version-2.0_Professional-blue.svg)](https://github.com/ai-collaboration-framework/releases)
 [![Compatibility](https://img.shields.io/badge/Compatibility-Universal-green.svg)]()
 
 ## 🎯 What Is This?
@@ -128,6 +128,37 @@ validation_rules:
 - **Reduced context switching** - Quality issues caught immediately
 - **Better onboarding** - Automated quality enforcement teaches standards
 - **Focus time** - Developers focus on architecture, not syntax
+
+## 🏗️ Professional Framework Structure (v2.0)
+
+This framework now features **enterprise-ready organization**:
+
+```
+your-project/
+├── [all existing files remain unchanged]
+├── .ai-framework/                           # Hidden framework operations
+│   ├── project-state/                       # Reboot & continuity docs
+│   │   ├── PROJECT_STATE.md                      # Current project status
+│   │   ├── REBOOT_INSTRUCTIONS.md               # Emergency recovery
+│   │   └── FRAMEWORK_CONFIG.md                  # Configuration details
+│   ├── communications/                      # AI-to-AI communication
+│   │   ├── reports/                             # Local AI validation reports
+│   │   ├── responses/                           # Online AI fix responses
+│   │   └── updates/                             # General AI communications
+│   ├── rules/                               # Framework operational rules
+│   │   ├── VALIDATION_RULES.md                  # Project validation standards
+│   │   └── REPOSITORY_SYNC_RULES.md             # Cross-platform sync protocol
+│   └── docs/                                # Framework documentation
+├── src/                                     # Organized source code
+└── tests/                                   # Organized test files
+```
+
+### **Key Improvements in v2.0:**
+- **🔒 Hidden Operations**: All framework files in `.ai-framework/` keep your project root clean
+- **📋 Reboot Documentation**: Complete continuity preservation for seamless recovery
+- **🔄 Repository Sync Rules**: Comprehensive cross-platform file synchronization protocols
+- **📊 Project State Tracking**: Detailed progress and status documentation
+- **🏢 Enterprise Ready**: Professional organization suitable for production environments
 
 ## 📁 What Gets Installed
 
