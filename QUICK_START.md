@@ -27,19 +27,19 @@ cd /path/to/your/project
 git init  # (if not already a git repository)
 ```
 
-### **Step 2: Run Setup Script**
+### **Step 2: Run Setup Command**
 ```bash
 # For Python projects:
-/Volumes/User_Smallfavor/Users/Smallfavor/Documents/Averys-AI-Collaboration-Hack/setup-ai-collaboration.sh --preset python --max-file-size 250 --test-coverage 90 --validation-tools "black,flake8,pytest"
+~/ai setup --preset python --max-file-size 250 --test-coverage 90 --validation-tools "black,flake8,pytest"
 
 # For React/Web projects:
-/Volumes/User_Smallfavor/Users/Smallfavor/Documents/Averys-AI-Collaboration-Hack/setup-ai-collaboration.sh --preset react --max-file-size 150 --test-coverage 85 --validation-tools "eslint,prettier,jest"
+~/ai setup --preset react --max-file-size 150 --test-coverage 85 --validation-tools "eslint,prettier,jest"
 
 # For Java projects:
-/Volumes/User_Smallfavor/Users/Smallfavor/Documents/Averys-AI-Collaboration-Hack/setup-ai-collaboration.sh --preset java --max-file-size 400 --test-coverage 85 --validation-tools "maven,junit"
+~/ai setup --preset java --max-file-size 400 --test-coverage 85 --validation-tools "maven,junit"
 
 # For Data Science projects:
-/Volumes/User_Smallfavor/Users/Smallfavor/Documents/Averys-AI-Collaboration-Hack/setup-ai-collaboration.sh --preset data-science --max-file-size 500 --test-coverage 80 --validation-tools "black,pytest,jupyter"
+~/ai setup --preset data-science --max-file-size 500 --test-coverage 80 --validation-tools "black,pytest,jupyter"
 ```
 
 ### **Step 3: Start Using Immediately**
@@ -47,10 +47,10 @@ git init  # (if not already a git repository)
 # Work on your project normally, then:
 
 # End session (capture exact state):
-./create_session_snapshot.sh
+~/ai save
 
 # Start session (instant recovery):
-./restore_session.sh
+~/ai restore
 ```
 
 **That's it! AI collaboration + session recovery is now active.**
@@ -93,13 +93,13 @@ your-project/
 
 ### **2. End Session:**
 ```bash
-./create_session_snapshot.sh
+~/ai save
 # Captures: current task, next action, files modified, exact state
 ```
 
 ### **3. Start Session:**
 ```bash
-./restore_session.sh
+~/ai restore
 # Displays: exactly where you left off, immediate next action
 ```
 
@@ -122,10 +122,10 @@ your-project/
 ### **Custom Configuration:**
 ```bash
 # See all options:
-./setup-ai-collaboration.sh --help
+~/ai setup --help
 
 # Custom setup:
-./setup-ai-collaboration.sh --language go --max-file-size 300 --test-coverage 80 --validation-tools "golint,go test"
+~/ai setup --language go --max-file-size 300 --test-coverage 80 --validation-tools "golint,go test"
 ```
 
 ---
@@ -174,7 +174,14 @@ your-project/
 ### **Quick Commands:**
 ```bash
 # Help with setup:
-./setup-ai-collaboration.sh --help
+~/ai setup --help
+
+# Show system status:
+~/ai status
+
+# View/edit behavior rules:
+~/ai rules --show
+~/ai rules --add "new rule"
 
 # Framework documentation:
 cat README.md
