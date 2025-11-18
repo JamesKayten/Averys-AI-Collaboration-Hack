@@ -11,10 +11,10 @@ echo "📁 Project: {{PROJECT_NAME}}"
 echo
 
 # Show Claude behavior rules (always use central copy)
-if [ -f "/Volumes/User_Smallfavor/Users/Smallfavor/Documents/Averys-AI-Collaboration-Hack/CLAUDE_BEHAVIOR_RULES.md" ]; then
+if [ -f "/Volumes/User_Smallfavor/Users/Smallfavor/Documents/AI-Collaboration-Management/CLAUDE_BEHAVIOR_RULES.md" ]; then
     echo "🤖 CLAUDE BEHAVIOR RULES (READ FIRST):"
     echo "======================================"
-    cat "/Volumes/User_Smallfavor/Users/Smallfavor/Documents/Averys-AI-Collaboration-Hack/CLAUDE_BEHAVIOR_RULES.md"
+    cat "/Volumes/User_Smallfavor/Users/Smallfavor/Documents/AI-Collaboration-Management/CLAUDE_BEHAVIOR_RULES.md"
     echo
 fi
 

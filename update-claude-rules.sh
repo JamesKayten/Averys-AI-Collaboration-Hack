@@ -2,7 +2,7 @@
 # UPDATE CLAUDE BEHAVIOR RULES
 # Usage: ~/update-claude-rules.sh "new rule text"
 
-RULES_FILE="/Volumes/User_Smallfavor/Users/Smallfavor/Documents/Averys-AI-Collaboration-Hack/CLAUDE_BEHAVIOR_RULES.md"
+RULES_FILE="/Volumes/User_Smallfavor/Users/Smallfavor/Documents/AI-Collaboration-Management/CLAUDE_BEHAVIOR_RULES.md"
 
 if [ "$1" = "--edit" ]; then
     # Interactive edit
@@ -23,7 +23,7 @@ else
 fi
 
 # Auto-commit changes
-cd "/Volumes/User_Smallfavor/Users/Smallfavor/Documents/Averys-AI-Collaboration-Hack"
+cd "/Volumes/User_Smallfavor/Users/Smallfavor/Documents/AI-Collaboration-Management"
 git add CLAUDE_BEHAVIOR_RULES.md
 git commit -m "Update Claude behavior rules
 

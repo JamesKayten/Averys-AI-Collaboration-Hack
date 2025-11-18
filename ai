@@ -2,7 +2,7 @@
 # MASTER AI COLLABORATION COMMAND
 # Usage: ~/ai [command] [options]
 
-FRAMEWORK_DIR="/Volumes/User_Smallfavor/Users/Smallfavor/Documents/Averys-AI-Collaboration-Hack"
+FRAMEWORK_DIR="/Volumes/User_Smallfavor/Users/Smallfavor/Documents/AI-Collaboration-Management"
 
 case "$1" in
     "setup"|"init")
