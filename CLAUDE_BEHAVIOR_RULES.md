@@ -33,3 +33,4 @@ When user says "Claude, remember..." or "Add this rule..." or describes new limi
 - Continue with task
 
 ## READ THIS FILE FIRST IN EVERY NEW SESSION- Provide the simplest, most direct solution first. No multiple instructions or options. Make things as easy as possible.
+- EFFICIENCY RULE: If task should take 20 minutes, finish in 20 minutes. Don't build elaborate systems when simple fixes work. Stop overengineering.
