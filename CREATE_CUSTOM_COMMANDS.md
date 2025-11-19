@@ -1,16 +1,33 @@
 # Create Custom Framework Commands
 
-## Quick Start: Make Any Word Run Any Script
+## Use ANY Phrase You Want
+
+**Say whatever you want. Get instant results.**
+
+Real examples you can use:
+- "**shit's ready**" → runs verification
+- "**fix it**" → fixes violations
+- "**test this**" → runs tests
+- "**deploy now**" → deploys to production
+- "**check the code**" → runs linters
+- **LITERALLY ANY PHRASE**
+
+No slash commands. No remembering syntax. Just talk naturally.
+
+---
+
+## Quick Start: Make Any Phrase Run Any Script
 
 **Create a command in 30 seconds:**
 
 ```bash
-# 1. Create a new command file (replace WORD with your command)
-nano .claude/commands/WORD.md
+# 1. Create a new command file
+nano .claude/commands/whatever.md
 
 # 2. Add this content:
 ---
 description: What this command does
+aliases: ["shit's ready", "ready", "check it", "verify this"]
 ---
 
 Your instructions for Claude here.
@@ -19,7 +36,8 @@ Can include bash commands, scripts, or high-level directions.
 # 3. Save and exit (Ctrl+X, Y, Enter)
 ```
 
-**Now you can type:** `/WORD` and Claude executes it.
+**Now you can say:** "shit's ready" OR "check it" OR "verify this" - any phrase in aliases triggers it.
+**Or use slash command:** `/whatever` if you prefer.
 
 ---
 
