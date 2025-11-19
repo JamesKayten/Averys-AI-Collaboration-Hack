@@ -478,6 +478,11 @@ fi
 echo "🤖 Installing repository-based AI collaboration..."
 mkdir -p "$REPO_ROOT/.ai"
 
+# Install AI helper script
+echo "📦 Installing AI helper command..."
+cp "$SCRIPT_DIR/templates/ai-helper.sh" "$REPO_ROOT/ai"
+chmod +x "$REPO_ROOT/ai"
+
 # Deploy repository-based AI collaboration files
 cp "$SCRIPT_DIR/templates/.ai/README_TEMPLATE.md" "$REPO_ROOT/.ai/README.md"
 cp "$SCRIPT_DIR/templates/.ai/BEHAVIOR_RULES_TEMPLATE.md" "$REPO_ROOT/.ai/BEHAVIOR_RULES.md"
