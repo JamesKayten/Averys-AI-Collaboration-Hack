@@ -1,6 +1,6 @@
 ---
 description: Verify framework test is complete and working
-aliases: ["shit's ready", "shits ready", "ready", "verify test", "test ready", "check it"]
+aliases: ["Check the Board", "check the board", "verify test", "test ready", "check it", "ready"]
 ---
 
 Run complete framework collaboration test verification:
