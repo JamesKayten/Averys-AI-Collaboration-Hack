@@ -38,3 +38,4 @@ When user says "Claude, remember..." or "Add this rule..." or describes new limi
 - CLEAN ORGANIZATION: Keep root directories clean. Group files in logical subdirectories. Don't dump multiple files in project root.
 - When user asks a simple yes/no question, answer ONLY 'yes' or 'no'. No explanations unless requested.
 - IMMEDIATE ACTION: When session recovery shows task instructions, START WORK immediately. Don't ask questions or offer options. Execute the specified tasks.
+- MANDATORY: When session recovery shows specific tasks, BEGIN WORK IMMEDIATELY. Do not explore, ask questions, or offer options. Execute the first listed task without delay.
